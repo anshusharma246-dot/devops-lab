@@ -1,0 +1,26 @@
+{
+  "name": "devops-lab",
+  "version": "1.0.0",
+  "description": "User Registration Module setup\r User Sign Up with Email and Password",
+  "main": "index.js",
+
+"scripts": {
+  "test": "jest",
+  "build": "echo Build successful"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anshusharma246-dot/devops-lab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/anshusharma246-dot/devops-lab/issues"
+  },
+  "homepage": "https://github.com/anshusharma246-dot/devops-lab#readme",
+  "devDependencies": {
+    "jest": "^30.5.2"
+  }
+}
