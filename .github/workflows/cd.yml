@@ -31,6 +31,6 @@ jobs:
       - name: Deploy application
         run: |
           docker pull ${{ secrets.DOCKERHUB_USERNAME }}/flask-demo:${{ github.sha }}
-          docker run -d -p 8080:5000 --name web ${{ secrets.DOCKERHUB_USERNAME }}/flask-demo:${{ github.sha }}
+          docker run -d -p 8080:3000 --name web ${{ secrets.DOCKERHUB_USERNAME }}/flask-demo:${{ github.sha }}
           sleep 5
           curl -f http://localhost:8080
